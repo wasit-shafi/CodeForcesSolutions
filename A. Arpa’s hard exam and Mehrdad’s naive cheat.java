@@ -12,6 +12,7 @@ public class Solution
     int n;
     int ans = -1;
     Scanner scanner = new Scanner(System.in);
+    // Find last digit of 1378^n
     /* Hamid's Logic
      * if n == 0 return 1
      * else 
