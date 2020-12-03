@@ -5,19 +5,15 @@
  */
 
 import java.util.Scanner;
-import java.math.BigInteger;
 
-public class Main {
+public class Solution {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    BigInteger t = new BigInteger("0");
     StringBuilder output = new StringBuilder("");
-
-    t = scanner.nextBigInteger();
-    while (t.compareTo(BigInteger.valueOf(0)) == 1) {
+    int t = scanner.nextInt();
+    while (t-- != 0) {
       output.append(scanner.next().length());
-      t = t.subtract(BigInteger.ONE);
-      if (t.compareTo(BigInteger.valueOf(0)) == 1) {
+      if (t != 0) {
         output.append("\n");
       }
     }
