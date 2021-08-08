@@ -1,2 +1,2 @@
 ># codeforcessolutions repo
-  * Includes problem submissions, mostly written in Java!!
+  * Includes CodeForces problem submissions, mostly written in Java!!
